@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
     </div>
     <div class="content">
       <div class="form">
-        <?php if ($message) : ?>
+        <?php if (isset($message) and $message) : ?>
           <div class="message<?php echo $status; ?>"><?php echo $message; ?></div>
         <?php endif; ?>
         <form action="/index.php" method="post">
