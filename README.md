@@ -3,14 +3,14 @@ SendGrid Sample App - PHP
 
 This git repository helps you to send emails quickly and easily through SendGrid using PHP.
 
-Create an SendGrid account at http://sendgrid.com/pricing.html
+Create an SendGrid account at https://signup.sendgrid.com/
 
 Clone SendGrid application on your local machine
 <pre>
     git clone https://github.com/sendgrid/sendgrid-php-sample-app
 </pre>
 
-###Configuration###
+### Configuration
 
 Configure `index.php` file with your information:
 
